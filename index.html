@@ -22,7 +22,8 @@
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 <!-- Site CSS -->
 <link rel="stylesheet" href="main.css">
@@ -85,7 +86,7 @@
 
     <section id="home" class="main-banner parallaxie" style="background: url('uploads/310404.jpg')">
         <div class="heading">
-            <h1>he<br>i'm Vesentini.</h1>
+            <h1>hello<br>i'm Vesentini.</h1>
             <p>"My mission is to bring you, <br>the results you deserve."</p>
             <h3 class="cd-headline clip is-full-width">
                 <span class="cd-words-wrapper">
@@ -137,7 +138,8 @@
                             freelancer and help you to get online with your business or put in practice the idea you
                             have.</p>
 
-                        <a href="#portfolio" class="sim-btn btn-hover-new js-scroll-trigger" data-text="Check my CV"><span>Check my CV</span></a>
+                        <a href="#portfolio" class="sim-btn btn-hover-new js-scroll-trigger"
+                            data-text="Check my CV"><span>Check my CV</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
@@ -224,262 +226,217 @@
 
     <div id="portfolio" class="section lb">
         <div class="container">
-            <div class="section-title text-center mb-2">
+            <div class="section-title text-center">
                 <h3>Portfolio</h3>
-                <p>I this section I have some of the works I had worked with.</p>
-            
-
+                <p>Take a look in my portfolio gallery.
+                </p>
+            </div> <!-- end title -->
             <div class="gallery-menu row">
                 <div class="col-md-12">
-                    <div class="button-group filter-button-group text-center">
+                    <div class="button-group filter-button-group text-center aligncenter">
                         <button class="active" data-filter="*">All</button>
-                        <button data-filter=".gal_a">Websites</button>
-                        <button data-filter=".gal_b">UI</button>
+                        <button data-filter=".gal_a">Web Development</button>
+                        <button data-filter=".gal_b">Web Design</button>
                         <button data-filter=".gal_c">Graphic Design</button>
-                        <button data-filter=".gal_d">Web Development</button>
+                        <button data-filter=".gal_d">User Interface</button>
+                        <button data-filter=".gal_e">3D images</button>
                     </div>
                 </div>
             </div>
-        </div><!-- end title -->
-            <!-- Grid row -->
-            <div class="row">
-
-                <!-- Grid column -->
-                <div class="col-lg-4 col-md-12 mb-4">
-
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-
-                            <!--Content-->
-                            <div class="modal-content">
-
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-10 text-center">
-                                    <img src="uploads/heropage_773x367.jpg" alt="3D instalttec">
-                                </div>
-
-                                <!--Footer-->
-                                <div class="modal-footer justify-content-center">
-                                    <span class="mr-4">Check this website live</span>
-                                    <a href="https://instalttec.com" >www.instalttec.com</a>
-                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                        data-dismiss="modal">Close</button>
-
-                                </div>
-
-                            </div>
-                            <!--/.Content-->
-
+            <div class="gallery-list row">
+                <!-- project  1 -->
+                <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b gal_d">
+                    <div class="gallery-single fix">
+                        <img src="uploads/heropage_773x367.jpg" class="img-fluid" alt="Image">
+                        <div class="img-overlay">
+                            <a class="hoverbutton global-radius"  style=" cursor: pointer;"><i class="fa fa-picture-o" data-toggle="modal" data-target="#modal-1"></i></a>
                         </div>
                     </div>
-                    <!--Modal: Name-->
-
-                    <a><img class="img-fluid z-depth-1" src="uploads/heropage_773x367.jpg"
-                            alt="3d instalttec" data-toggle="modal" data-target="#modal1"></a>
-
                 </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-lg-4 col-md-6 mb-4">
-
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-
-                            <!--Content-->
-                            <div class="modal-content">
-
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-10 text-center">                                    
-                                      <img src="uploads/classy4.png" alt="Classy Auto care">
-                                </div>
-
-                                <!--Footer-->
-                                <div class="modal-footer justify-content-center">
-                                    <span class="mr-4">Check this website live</span>
-                                    <a href="https://instalttec.com" >www.ClassyAutoCare.com</a>
-                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                        data-dismiss="modal">Close</button>
-
-                                </div>
-
-                            </div>
-                            <!--/.Content-->
-
+                <!-- Modal 1 -->
+                <div id="modal-1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Name Project</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                              <p>Instalttec is project which is in process since 2019</p>
+                            <img src="uploads/heropage.png" class="img-fluid" alt="Image">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary"
+                                data-dismiss="modal">Close</button>
+                            <a href="https://instalttec.com" target="_blank"><button type="button" class="btn btn-primary">View Website</button></a>
                         </div>
                     </div>
-                    <!--Modal: Name-->
-
-                    <a><img class="img-fluid z-depth-1" src="uploads/classy.png"
-                            alt="classy auto care" data-toggle="modal" data-target="#modal6"></a>
-
+                    </div>               
                 </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-lg-4 col-md-6 mb-4">
-
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-
-                            <!--Content-->
-                            <div class="modal-content">
-
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-10 text-center">                                    
-                                    <img src="uploads/vesentiniweb_773x367.jpg" alt="vesentiniweb">
-                                </div>
-
-                                <!--Footer-->
-                                <div class="modal-footer justify-content-center">
-                                    <span class="mr-4">Check this website live</span>
-                                    <a href="https://vesentii.com" >www.vesentini.com</a>
-                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                        data-dismiss="modal">Close</button>
-                                </div>
-
-                            </div>
-                            <!--/.Content-->
-
+                <!-- project  2 -->
+                <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+                    <div class="gallery-single fix">
+                        <img src="uploads/classyauto_773x367.jpg" class="img-fluid" alt="Image">
+                        <div class="img-overlay">
+                            <a class="hoverbutton global-radius"  style=" cursor: pointer;"><i class="fa fa-picture-o" data-toggle="modal" data-target="#modal-2"></i></a>
                         </div>
                     </div>
-                    <!--Modal: Name-->
-
-                    <a><img class="img-fluid z-depth-1" src="uploads/vesentiniweb_773x367.jpg"
-                        alt="vesentiniweb" data-toggle="modal" data-target="#modal4"></a>
-
                 </div>
-                <!-- Grid column -->
+                <!-- Modal 2 -->
+                <div id="modal-2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Name Project</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>...</p>
+                                <img src="uploads/classyauto_773x367.jpg" class="img-fluid" alt="Image">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                    data-dismiss="modal">Close</button>
+                                <a href="https://classyautocare.netlify.app" target="_blank"><button type="button" class="btn btn-primary">View Website</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- project  3 -->
+                <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b gal_c gal_d">
+                    <div class="gallery-single fix">
+                        <img src="uploads/uiportfolio.png" class="img-fluid" alt="Image">
+                        <div class="img-overlay">
+                            <a class="hoverbutton global-radius"  style=" cursor: pointer;"><i class="fa fa-picture-o" data-toggle="modal" data-target="#modal-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 3 -->
+                <div id="modal-3" class="modal fade bd-example-modal-lg-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Name Project</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Instalttec is project which is in process since 2019</p>
+                                <img src="uploads/uiportfolio.png" class="img-fluid" alt="Image">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                    data-dismiss="modal">Close</button>
+                                <a href="https://guilhermevesentini.github.io/Ui-study/index.html" target="_blank"><button type="button" class="btn btn-primary">View Website</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- project  4 -->
+                <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b gal_c gal_d">
+                    <div class="gallery-single fix">
+                        <img src="uploads/vesentiniweb_773x367.jpg" class="img-fluid" alt="Image">
+                        <div class="img-overlay">
+                            <a class="hoverbutton global-radius"  style=" cursor: pointer;"><i class="fa fa-picture-o" data-toggle="modal" data-target="#modal-4"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 4 -->
+                <div id="modal-4" class="modal fade bd-example-modal-lg-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Name Project</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Instalttec is project which is in process since 2019</p>
+                                <img src="uploads/vesentiniweb_773x367.jpg" class="img-fluid" alt="Image">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                    data-dismiss="modal">Close</button>
+                                <a href="https://classyautocare.netlify.app" target="_blank"><button type="button" class="btn btn-primary">View Website</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- project  5 -->
+                <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b gal_c gal_d">
+                    <div class="gallery-single fix">
+                        <img src="uploads/martacorretora.png" class="img-fluid" alt="Image">
+                        <div class="img-overlay">
+                            <a class="hoverbutton global-radius"  style=" cursor: pointer;"><i class="fa fa-picture-o" data-toggle="modal" data-target="#modal-5"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 5 -->
+                <div id="modal-5" class="modal fade bd-example-modal-lg-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Name Project</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Instalttec is project which is in process since 2019</p>
+                                <img src="uploads/martacorretora.png" class="img-fluid" alt="Image">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                    data-dismiss="modal">Close</button>
+                                <a href="https://classyautocare.netlify.app" target="_blank"><button type="button" class="btn btn-primary">View Website</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- project  6 -->
+                <div class="col-md-4 col-sm-6 gallery-grid gal_e">
+                    <div class="gallery-single fix">
+                        <img src="uploads/instalttec.png" class="img-fluid bg-info" alt="Image">
+                        <div class="img-overlay">
+                            <a class="hoverbutton global-radius"  style=" cursor: pointer;"><i class="fa fa-picture-o" data-toggle="modal" data-target="#modal-6"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 6 -->
+                <div id="modal-6" class="modal fade bd-example-modal-lg-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Name Project</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Instalttec is project which is in process since 2019</p>
+                                <img src="uploads/Grupo6.png" class="img-fluid bg-info" alt="Image">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                    data-dismiss="modal">Close</button>
+                                <a href="https://classyautocare.netlify.app" target="_blank"><button type="button" class="btn btn-primary">View Website</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
-            <!-- Grid row -->
-
-            <!-- Grid row -->
-            <div class="row">
-
-                <!-- Grid column -->
-                <div class="col-lg-4 col-md-12 mb-4">
-
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-
-                            <!--Content-->
-                            <div class="modal-content">
-
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-0 text-center">                                    
-                                    <img src="uploads/Grupo46.png" alt="Marta corretora">
-                                </div>
-
-                                <!--Footer-->
-                                <div class="modal-footer justify-content-center">
-                                    <span class="mr-4">Check this website live</span>
-                                    <a href="https://vesentii.com" >www.martacorretora.com</a>
-                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                        data-dismiss="modal">Close</button>
-                                </div>
-
-                            </div>
-                            <!--/.Content-->
-
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-
-                    <a><img class="img-fluid z-depth-1" src="uploads/Grupo46.png"
-                            alt="Marta corretora" data-toggle="modal" data-target="#modal2"></a>
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-lg-4 col-md-6 mb-4">
-
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-
-                            <!--Content-->
-                            <div class="modal-content">
-
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-10 text-center">                                    
-                                    <img src="uploads/bannerportfolio_773x367.jpg" alt="portfolio UI">
-                                </div>
-
-                                <!--Footer-->
-                                <div class="modal-footer justify-content-center">
-                                    <span class="mr-4">Check this website live</span>
-                                    <a href="https://vesentiNiUI.com" >www.Vesentiniui.com</a>
-                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                        data-dismiss="modal">Close</button>
-                                </div>
-
-                            </div>
-                            <!--/.Content-->
-
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-
-                    <a><img class="img-fluid z-depth-1" src="uploads/bannerportfolio_773x367.jpg"
-                            alt="portfolio UI" data-toggle="modal" data-target="#modal5"></a>
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-lg-4 col-md-6 mb-4">
-
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-
-                            <!--Content-->
-                            <div class="modal-content">
-
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-10 text-center">                                    
-                                    <img src="uploads/hero_773x367.jpg" alt="portfolio UI">
-                                </div>
-
-                                <!--Footer-->
-                                <div class="modal-footer justify-content-center">
-                                    <span class="mr-4">Check this website live</span>
-                                    <a href="https://vesentiNiUI.com" >www.Vesentiniui.com</a>
-                                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                        data-dismiss="modal">Close</button>
-                                </div>
-
-                            </div>
-                            <!--/.Content-->
-
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-
-                    <a><img class="img-fluid z-depth-1" src="uploads/Grupo7.png"
-                            alt="video" data-toggle="modal" data-target="#modal3"></a>
-
-                </div>
-                <!-- Grid column -->
-
             </div>
-            <!-- Grid row -->
         </div>
     </div>
     </div>
-
-
 
     <div id="contact" class="section db">
         <div class="container">
@@ -496,31 +453,32 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input class="form-control" id="name" type="text" name="name" placeholder="Your Name"
-                                            required="required">
+                                        <input class="form-control" id="name" type="text" name="name"
+                                            placeholder="Your Name" required="required">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control" id="email" type="email" name="email" placeholder="Your Email"
-                                            required="required">
+                                        <input class="form-control" id="email" type="email" name="email"
+                                            placeholder="Your Email" required="required">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone"
-                                            required="required">
+                                        <input class="form-control" id="phone" name="phone" type="tel"
+                                            placeholder="Your Phone" required="required">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <textarea class="form-control" id="message" type="message" name="message" placeholder="Your Message"
-                                            required="required"></textarea>
+                                        <textarea class="form-control" id="message" type="message" name="message"
+                                            placeholder="Your Message" required="required"></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="col-lg-12 text-center">
-                                    <button id="sendMessageButton" class="sim-btn btn-hover-new" type="submit">Send Message</button>
+                                    <button id="sendMessageButton" class="sim-btn btn-hover-new" type="submit">Send
+                                        Message</button>
                                 </div>
                             </div>
                         </form>
