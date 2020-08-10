@@ -653,7 +653,10 @@ xclip
 .services-inner-box{
 	padding: 15px;
 	background: #ffffff;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 31px 31px 4px -25px rgba(0,0,0,0.51);
+    -moz-box-shadow: 31px 31px 4px -25px rgba(0,0,0,0.51);
+    box-shadow: 31px 31px 4px -25px rgba(0,0,0,0.51);  
 }
 .ser-icon{
 	width: 90px;
@@ -663,7 +666,7 @@ xclip
 }
 .ser-icon i{
 	font-size: 50px;
-	color: #333333;
+    color: #333333;
 }
 .services-inner-box h2{
 	font-size: 22px;
